@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register | Fikri Rivandi Space</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>Register to <em>Fikri's</em> Space</header>
+        <main>
+            <div class="card">
+                <h3 class="title">Register</h3>
+                <div class="card-container">
+                    <form action="" id="regist-form">
+                        <div class="form-field">
+                            <div class="input-group">
+                                <div class="input-field">
+                                    <label for="username">Username :</label>
+                                    <input
+                                        type="text"
+                                        name="username"
+                                        id="username"
+                                        required
+                                        placeholder="ex. freack21"
+                                    />
+                                    <p id="username-warn" class="warn-text"></p>
+                                </div>
+                                <div class="input-field">
+                                    <label for="kata-sandi">Password :</label>
+                                    <input
+                                        type="password"
+                                        name="kata-sandi"
+                                        id="kata-sandi"
+                                        required
+                                        placeholder="******"
+                                    />
+                                    <p id="kata-sandi-warn" class="warn-text"></p>
+                                    <p>The length of the password must be 8-20 characters.</p>
+                                </div>
+                                <div class="input-field">
+                                    <label for="re-kata-sandi">Confirm Password :</label>
+                                    <input
+                                        type="password"
+                                        name="re-kata-sandi"
+                                        id="re-kata-sandi"
+                                        required
+                                        placeholder="******"
+                                    />
+                                    <p id="re-kata-sandi-warn" class="warn-text"></p>
+                                </div>
+                                <div class="input-field-group" id="input-field-nama">
+                                    <div class="input-field">
+                                        <label for="nama-depan">First Name :</label>
+                                        <input
+                                            type="text"
+                                            name="nama-depan"
+                                            id="nama-depan"
+                                            required
+                                            placeholder="ex. Fikri"
+                                        />
+                                        <p id="nama-depan-warn" class="warn-text"></p>
+                                    </div>
+                                    <div class="input-field">
+                                        <label for="nama-belakang">Last Name :</label>
+                                        <input
+                                            type="text"
+                                            name="nama-belakang"
+                                            id="nama-belakang"
+                                            required
+                                            placeholder="ex. Rivandi"
+                                        />
+                                        <p id="nama-belakang-warn" class="warn-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <div class="input-field-group" id="input-field-mail">
+                                    <div class="input-field">
+                                        <label for="email">Email :</label>
+                                        <input
+                                            type="email"
+                                            name="email"
+                                            id="email"
+                                            required
+                                            placeholder="ex. fixri2104@gmail.com"
+                                        />
+                                        <p id="email-warn" class="warn-text"></p>
+                                    </div>
+                                    <div class="input-field">
+                                        <label for="no-hp">Phone :</label>
+                                        <input
+                                            type="tel"
+                                            name="no-hp"
+                                            id="no-hp"
+                                            required
+                                            placeholder="ex. 082286230830"
+                                        />
+                                        <p id="no-hp-warn" class="warn-text"></p>
+                                    </div>
+                                </div>
+                                <div class="input-field">
+                                    <label for="alamat">Address :</label>
+                                    <input
+                                        type="text"
+                                        name="alamat"
+                                        id="alamat"
+                                        required
+                                        placeholder="ex. Gg. Hilir, Jl. Bangau Sakit"
+                                    />
+                                    <p id="alamat-warn" class="warn-text"></p>
+                                </div>
+                                <div class="input-field-group" id="input-field-nama">
+                                    <div class="input-field">
+                                        <label for="kecamatan">Kecamatan :</label>
+                                        <input
+                                            type="text"
+                                            name="kecamatan"
+                                            id="kecamatan"
+                                            required
+                                            placeholder="ex. Cakep"
+                                        />
+                                        <p id="kecamatan-warn" class="warn-text"></p>
+                                    </div>
+                                    <div class="input-field">
+                                        <label for="kota">City :</label>
+                                        <input
+                                            type="text"
+                                            name="kota"
+                                            id="kota"
+                                            required
+                                            placeholder="ex. Pekanlama"
+                                        />
+                                        <p id="kota-warn" class="warn-text"></p>
+                                    </div>
+                                </div>
+                                <div class="input-field">
+                                    <label for="provinsi">Province :</label>
+                                    <select name="provinsi" id="provinsi" required>
+                                        <option value="">Select Province</option>
+                                        <option value="Nanggroe Aceh Darussalam">
+                                            Nanggroe Aceh Darussalam
+                                        </option>
+                                        <option value="Sumatera Utara">Sumatera Utara</option>
+                                        <option value="Sumatera Selatan">Sumatera Selatan</option>
+                                        <option value="Sumatera Barat">Sumatera Barat</option>
+                                        <option value="Bengkulu">Bengkulu</option>
+                                        <option value="Riau">Riau</option>
+                                        <option value="Kepulauan Riau">Kepulauan Riau</option>
+                                        <option value="Jambi">Jambi</option>
+                                        <option value="Lampung">Lampung</option>
+                                        <option value="Bangka Belitung">Bangka Belitung</option>
+                                        <option value="Kalimantan Barat">Kalimantan Barat</option>
+                                        <option value="Kalimantan Timur">Kalimantan Timur</option>
+                                        <option value="Kalimantan Selatan">
+                                            Kalimantan Selatan
+                                        </option>
+                                        <option value="Kalimantan Tengah">Kalimantan Tengah</option>
+                                        <option value="Kalimantan Utara">Kalimantan Utara</option>
+                                        <option value="Banten">Banten</option>
+                                        <option value="DKI Jakarta">DKI Jakarta</option>
+                                        <option value="Jawa Barat">Jawa Barat</option>
+                                        <option value="Jawa Tengah">Jawa Tengah</option>
+                                        <option value="Daerah Istimewa Yogyakarta">
+                                            Daerah Istimewa Yogyakarta
+                                        </option>
+                                        <option value="Jawa Timur">Jawa Timur</option>
+                                        <option value="Bali">Bali</option>
+                                        <option value="Nusa Tenggara Timur">
+                                            Nusa Tenggara Timur
+                                        </option>
+                                        <option value="Nusa Tenggara Barat">
+                                            Nusa Tenggara Barat
+                                        </option>
+                                        <option value="Gorontalo">Gorontalo</option>
+                                        <option value="Sulawesi Barat">Sulawesi Barat</option>
+                                        <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+                                        <option value="Sulawesi Utara">Sulawesi Utara</option>
+                                        <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+                                        <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+                                        <option value="Maluku Utara">Maluku Utara</option>
+                                        <option value="Maluku">Maluku</option>
+                                        <option value="Papua Barat">Papua Barat</option>
+                                        <option value="Papua">Papua</option>
+                                        <option value="Papua Tengah">Papua Tengah</option>
+                                        <option value="Papua Pegunungan">Papua Pegunungan</option>
+                                        <option value="Papua Selatan">Papua Selatan</option>
+                                        <option value="Papua Barat Daya">Papua Barat Daya</option>
+                                    </select>
+                                    <p id="provinsi-warn" class="warn-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a href="login.html">
+                                <button type="button">Back</button>
+                            </a>
+                            <button id="submit-btn" type="button">Go</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>Made with ❤️ from Fikri Rivandi</footer>
+        <script src="register.js"></script>
+    </body>
+</html>
