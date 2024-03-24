@@ -206,3 +206,45 @@ dataProgram.forEach((d, i) => {
 });
 programCards += `</div>`;
 document.querySelector("main .program").innerHTML += programCards;
+
+const dataOthers = [
+    "https://ppid.unri.ac.id/",
+    "https://www.lapor.go.id/",
+    "https://wbs.kemdikbud.go.id/",
+    "https://unri.ac.id/#",
+    "https://satgasppks.unri.ac.id/",
+];
+
+let othersCards = ``;
+dataOthers.forEach((d, i) => {
+    othersCards += `<div class="others-item">
+    <a href="${d}">
+        <img src="img/elemen/${i + 1}.${i == 4 ? "jpeg" : "png"}" alt="icon" />
+    </a>
+</div>
+`;
+});
+document.querySelector("main .others").innerHTML += othersCards;
+
+const dataLinks = [
+    { link: "https://portal.unri.ac.id/", text: "Portal" },
+    {
+        link: "https://unri.ac.id/wp-content/uploads/2023/10/20230727_Kalender-Akdemik-2023-2024.pdf",
+        text: "Kalender Akademik",
+    },
+    { link: "https://mail.unri.ac.id/", text: "Webmail" },
+    { link: "https://staff.unri.ac.id/", text: "Blog Staff" },
+    { link: "https://unri.ac.id/dokumen/", text: "Dokumen" },
+    { link: "https://unri.ac.id/#", text: "Prestasi" },
+    { link: "https://ppid.unri.ac.id/", text: "PPID" },
+    { link: "https://unri.ac.id/pkkmb/", text: "PKKMB" },
+];
+
+let linksCards = ``;
+dataLinks.forEach((d, i) => {
+    linksCards += `<a href="${d.link}">
+        ${d.text}
+    </a>
+`;
+});
+document.querySelector("#links").innerHTML += linksCards;

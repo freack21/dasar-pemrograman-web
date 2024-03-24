@@ -380,8 +380,8 @@ main.main section {
     color: white;
     font-weight: 600;
     text-decoration: none;
-    padding: 0.25rem 2.5rem;
-    border-radius: 1rem;
+    padding: 0.5rem 2.5rem;
+    border-radius: 100rem;
     margin: 0.5rem 0;
 }
 
@@ -572,4 +572,100 @@ main.main section {
 .desc-image .see-all {
     padding: 0.5rem 2rem;
     border-radius: 100rem;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 4rem;
+}
+
+.sections > * {
+    flex: 1 1 0;
+}
+
+.sections section .see-all-div {
+    margin-top: -0.5rem;
+}
+
+.sections section img {
+    width: 100%;
+    margin-top: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.others {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.others-item {
+    width: 30%;
+    border: 2px solid #387adf;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.others-item:hover {
+    box-shadow: 8px -8px #387adf;
+    transform: scale(1.1);
+}
+
+.others-item img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+footer {
+    background-color: #387adf;
+    color: white;
+    padding: 2rem;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer .row > * {
+    padding: 0.25rem 3rem;
+}
+
+#links {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin: 0.25rem 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .not-first {
+    border-left: 2px solid white;
+}
+
+footer .copyright {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: -1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    color: #387adf;
 }
