@@ -1,0 +1,180 @@
+@media (max-width: 1200px) {
+    header main header {
+        padding: 0.25rem 1rem;
+        max-height: 128px;
+        min-height: 48px;
+        margin-top: 1rem;
+    }
+
+    header main header img {
+        max-width: 48px;
+    }
+
+    #menu .bottom-menu {
+        display: none;
+    }
+
+    .search-field,
+    #menu .icon {
+        display: none;
+    }
+
+    #pendaftaran {
+        font-size: 0.65em;
+        position: absolute;
+        right: 4%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .inner-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .inner-box img {
+        width: 100%;
+    }
+
+    .program-items a {
+        padding: 0.75rem 1.25rem;
+        font-size: 0.85em;
+    }
+}
+
+@media (max-width: 768px) {
+    h1,
+    p,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        transform: scale(0.75);
+    }
+
+    .program-items {
+        margin: 1rem;
+        padding: 1rem;
+        padding-bottom: 3rem;
+        padding-top: 0;
+    }
+
+    .program-items p {
+        font-size: 1.1em;
+    }
+
+    .program-items a {
+        padding: 0.5rem 1.25rem;
+        font-size: 0.75em;
+    }
+    .title-tag h1,
+    .title-tag .line-r {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    header {
+        border-radius: 0;
+        width: 100vw;
+    }
+
+    header .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .line {
+        height: 3px;
+        width: 120px;
+    }
+
+    #univ-name {
+        text-align: center;
+        font-size: 2em;
+        margin: 0;
+        transition: ease-in 1s;
+    }
+
+    .tagline {
+        max-width: 75%;
+        /* overflow: visible; */
+    }
+
+    main.main {
+        padding: 1rem;
+        align-items: start;
+    }
+
+    main .stats {
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    main .stats.stats-desktop {
+        display: none;
+    }
+
+    main section.stats-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+
+    main .stats .stats-item {
+        max-width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .stats .stats-item p {
+        transform: scale(0.75);
+    }
+
+    main .stats .stats-name {
+        margin-top: 0.5rem;
+    }
+
+    main .title-tag h1 {
+        font-size: 1.5em;
+    }
+
+    .berita-card {
+        margin: 1rem 0;
+    }
+
+    .berita-card h3,
+    .berita-card hr,
+    .berita-card p {
+        position: static;
+        display: block;
+    }
+
+    .quotes {
+        padding: 0.75rem 1rem;
+    }
+
+    .inner-box {
+        padding: 1rem;
+        gap: 0;
+    }
+
+    .inner-box .text-box {
+        transform: scale(0.85);
+    }
+}
